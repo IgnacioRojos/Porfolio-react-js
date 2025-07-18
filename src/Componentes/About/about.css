@@ -1,0 +1,62 @@
+.about-section {
+    max-width: 1200px;
+}
+
+.about-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.about-profession {
+    font-size: 1.5rem;
+    color: #007bff;
+    font-weight: 600;
+}
+
+.about-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-buttons .btn {
+    min-width: 180px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.about-experience {
+    max-width: 800px;
+}
+
+.about-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.about-experience-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.btn-primary {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
