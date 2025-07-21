@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+🌟 Mi Portfolio Front-End en React JS - Ignacio Rojos
+¡Bienvenido a mi portfolio como Desarrollador Front-End!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es mi carta de presentación como developer, donde muestro quién soy, mis habilidades, proyectos destacados y formas de contacto, utilizando React JS para una estructura escalable y profesional.
 
-## Available Scripts
+🚀 Deploy en Netlify
+👉 Ver Portfolio en vivo
+(Reemplaza este link por el URL real de tu Netlify cuando lo confirmes)
 
-In the project directory, you can run:
+🛠️ Tecnologías utilizadas
+React JS para estructura de componentes reutilizables.
 
-### `npm start`
+HTML5 y CSS3 para estructura y estilos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+JavaScript (ES6+) para interactividad.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Responsive Design para todos los dispositivos.
 
-### `npm test`
+Netlify para deploy rápido y gratuito.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Git & GitHub para control de versiones.
 
-### `npm run build`
+🎯 Objetivos del proyecto
+✅ Mostrar de forma clara quién soy y qué puedo aportar como developer.
+✅ Facilitar el acceso a mis proyectos destacados.
+✅ Generar un canal de contacto para reclutadores y clientes.
+✅ Mantener una estética limpia, moderna y profesional.
+✅ Aplicar React JS en la construcción de un portfolio escalable.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✨ Funcionalidades principales
+✅ Sección Hero con presentación e imagen de marca personal.
+✅ Sección Sobre mí, destacando experiencia y habilidades.
+✅ Proyectos realizados, con links para verlos en vivo o en GitHub.
+✅ Formulario de contacto funcional para recibir consultas.
+✅ Diseño adaptable para celulares, tablets y escritorio.
+✅ Navegación fluida y transiciones suaves entre secciones.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📬 Contacto
+Si te interesa que forme parte de tu equipo o realizar un proyecto juntos, puedes contactarme por:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📧 Email: ignaciorojos.dev@gmail.com
 
-### `npm run eject`
+💼 LinkedIn: Ignacio Rojos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+💻 GitHub: IgnacioRojos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🖼️ Capturas
+(Puedes agregar capturas aquí cuando gustes)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🔮 Mejoras futuras
+✨ Incorporar animaciones con Framer Motion para transiciones suaves.
+✨ Mejorar el SEO para posicionamiento en buscadores.
+✨ Conectar el formulario de contacto con un backend (Firebase o Node.js) para recibir mensajes directamente.
+✨ Agregar modo oscuro para mayor personalización.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+⭐ Contribuciones y soporte
+Si este proyecto te resultó útil o inspirador, puedes darle una ⭐ en GitHub y seguirme para ver mis próximos proyectos.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por visitar mi portfolio!
