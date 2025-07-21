@@ -38,11 +38,11 @@ Git & GitHub para control de versiones.
 ## 📬 Contacto
 Si te interesa que forme parte de tu equipo o realizar un proyecto juntos, puedes contactarme por:
 
-📧 Email: ignaciorojos.dev@gmail.com
+📧 Email: nachorojos99@gmail.com
 
-💼 LinkedIn: Ignacio Rojos
+💼 LinkedIn: https://www.linkedin.com/in/ignacio-rojos/
 
-💻 GitHub: IgnacioRojos
+💻 GitHub: https://github.com/IgnacioRojos
 
 ## 🖼️ Capturas
 <img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/b47d92a1-6870-46dd-893a-903a22a8080c" />
