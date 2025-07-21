@@ -16,7 +16,7 @@ const Proyects = () => {
                   <h5 className="card-title">H.I.R Reparaciones</h5>
                   <p className="card-text">Página estática para un emprendedor que realiza reparaciones de PC y notebooks.</p>
                   <a href="https://github.com/IgnacioRojos/HIR-reparaciones.git" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Repositorio</a>
-                  <a href="https://timely-pudding-7f745d.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
+                  <a href="https://hirreparaciones.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@ const Proyects = () => {
                   <h5 className="card-title">Concesionario Sport simulador React Js</h5>
                   <p className="card-text">Proyecto React JS para simular la compra de autos. Desarrollado como entrega final.</p>
                   <a href="https://github.com/IgnacioRojos/Concesionario-Sport-React-Js.git" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Repositorio</a>
-                  <a href="https://fantastic-kitten-2748bf.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
+                  <a href="https://concesionariosport.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ const Proyects = () => {
                   <h5 className="card-title">Concesionario Sport simulador Js</h5>
                   <p className="card-text">Simulador de compra de autos realizado en JavaScript Vanilla para una entrega final.</p>
                   <a href="https://github.com/IgnacioRojos/Concesionario-Sport-simulador-de-compra.git" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Repositorio</a>
-                  <a href="https://helpful-tanuki-e4dc1a.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
+                  <a href="https://simuladordecomprajavascript.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ const Proyects = () => {
                   <h5 className="card-title">Tu Profe Particular React Js</h5>
                   <p className="card-text">Proyecto en React JS para mejorar rendimiento. Permite buscar profesores particulares.</p>
                   <a href="https://github.com/IgnacioRojos/Tu-Profe-Particular-React.git" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Repositorio</a>
-                  <a href="https://sage-pegasus-304db4.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
+                  <a href="https://tuprofeparticularreactjs.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
                 </div>
               </div>
             </div>
