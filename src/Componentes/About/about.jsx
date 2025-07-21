@@ -14,7 +14,7 @@ const About = () =>{
                         Soy estudiante de Ingeniería en Sistemas con experiencia en desarrollo web, especializado en HTML, CSS, JavaScript, React y con nociones de Back-End. Apasionado por crear interfaces intuitivas y soluciones eficientes.
                     </p>
                     <div className="about-buttons mt-4 d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-2">
-                        <a href="#proyectos" className="btn btn-primary">Ver Proyectos</a>
+                        <a href="#proyectos" className="btn btn-outline-primary">Ver Proyectos</a>
                         <a href="https://drive.google.com/drive/folders/1OHM6-zi61zj_IVnFomlQFgjeqW49OS2j?usp=drive_link" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">Ver Certificaciones</a>
                     </div>
                 </div>
@@ -32,10 +32,10 @@ const About = () =>{
                         proyecto.
                     </p>
                     <div className="d-flex flex-column flex-sm-row justify-content-center gap-3">
-                        <a download="Curriculum_Ignacio_Rojos_ES.pdf" href="/IgnacioRojos_FrontEndDeveloper_2025.pdf" className="btn btn-primary">
-                            Descargar CV en Español
+                        <a download="Curriculum_Ignacio_Rojos_ES.pdf" href="/IgnacioRojos_FrontEndDeveloper_2025.pdf" className="btn btn-outline-primary">
+                            Descargar CV
                         </a>
-                        <a download="Curriculum_Ignacio_Rojos_EN.pdf" href="/IgnacioRojos_2025_in_English.pdf" className="btn btn-primary">
+                        <a download="Curriculum_Ignacio_Rojos_EN.pdf" href="/IgnacioRojos_2025_in English.pdf" className="btn btn-outline-primary">
                             Descargar CV en Inglés
                         </a>
                     </div>
