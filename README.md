@@ -45,7 +45,8 @@ Si te interesa que forme parte de tu equipo o realizar un proyecto juntos, puede
 💻 GitHub: IgnacioRojos
 
 🖼️ Capturas
-(Puedes agregar capturas aquí cuando gustes)
+<img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/b47d92a1-6870-46dd-893a-903a22a8080c" />
+
 
 🔮 Mejoras futuras
 ✨ Incorporar animaciones con Framer Motion para transiciones suaves.
