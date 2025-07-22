@@ -4,8 +4,8 @@
 Este proyecto es mi carta de presentación como developer, donde muestro quién soy, mis habilidades, proyectos destacados y formas de contacto, utilizando React JS para una estructura escalable y profesional.
 
 🚀 Deploy en Netlify
-👉 Ver Portfolio en vivo
-(Reemplaza este link por el URL real de tu Netlify cuando lo confirmes)
+👉 Ver Portfolio en vivo https://porfolioignaciorojos.netlify.app/
+
 
 ## 🛠️ Tecnologías utilizadas
 React JS para estructura de componentes reutilizables.
