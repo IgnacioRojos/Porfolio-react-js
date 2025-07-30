@@ -35,7 +35,7 @@ const Skills = () => {
             },
             arrows: false,
             pagination: false,
-            gap: '0',
+            gap: '0.2rem',
           }}
           extensions={{ AutoScroll }}
         >
