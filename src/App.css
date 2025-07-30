@@ -1,7 +1,7 @@
 /* === Estilos generales === */
 html {
   scroll-behavior: smooth;
-   overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 /* Modo oscuro */
