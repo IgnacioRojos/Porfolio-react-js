@@ -40,20 +40,26 @@ const Header = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
+                <button className="btn btn-theme-toggle ms-auto d-lg-none" onClick={toggleDarkMode}>
+                    {isDarkMode ? <FaSun /> : <FaMoon />}
+                </button>
+
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="nav-link" href="#sobreMi">Sobre Mi</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#proyectos">Portfolio</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#contacto">Contacto</a>
-                        </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#sobreMi">Sobre Mi</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#proyectos">Portfolio</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#contacto">Contacto</a>
+                    </li>
                     </ul>
-                    <button className="btn btn-theme-toggle ms-3" onClick={toggleDarkMode}>
-                        {isDarkMode ? <FaSun /> : <FaMoon />}
+
+                    {/* 👇 SOLO PARA PANTALLAS GRANDES */}
+                    <button className="btn btn-theme-toggle ms-3 d-none d-lg-block" onClick={toggleDarkMode}>
+                    {isDarkMode ? <FaSun /> : <FaMoon />}
                     </button>
                 </div>
             </nav>

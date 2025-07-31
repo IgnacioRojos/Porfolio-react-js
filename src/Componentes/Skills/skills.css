@@ -7,10 +7,11 @@
 }
 
 .skills-img {
-  border-radius: 12px;
-  width: 150px;
+  width: 100px;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 12px;
   transition: transform 0.3s;
 }
 
@@ -41,6 +42,13 @@
   line-height: 1.6;
   padding: 0 20px;
 }
+
+.skills-carousel-container {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 0.5rem;
+}
+
 
 .dark-mode .skills-title{
   color: white;

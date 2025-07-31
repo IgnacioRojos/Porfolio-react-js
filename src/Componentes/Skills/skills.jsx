@@ -30,12 +30,22 @@ const Skills = () => {
             drag: 'free',
             focus: 'center',
             perPage: 3,
+            gap: '0.5rem',
             autoScroll: {
               speed: 1,
             },
+            breakpoints: {
+              768: {
+                perPage: 2,
+                gap: '0.7rem',
+              },
+              480: {
+                perPage: 1,
+                gap: '0.5rem',
+              },
+            },
             arrows: false,
             pagination: false,
-            gap: '0.2rem',
           }}
           extensions={{ AutoScroll }}
         >
