@@ -15,20 +15,20 @@ const Proyects = () => {
                 <div className="card-body">
                   <h5 className="card-title">H.I.R Reparaciones</h5>
                   <p className="card-text">Página estática para un emprendedor que realiza reparaciones de PC y notebooks.</p>
-                  <a href="https://github.com/IgnacioRojos/HIR-reparaciones.git" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Repositorio</a>
-                  <a href="https://hirreparaciones.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
+                  <a href="https://github.com/IgnacioRojos/HIReparaciones-React-js.git" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Repositorio</a>
+                  <a href="https://hireparacionesreactjs.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
                 </div>
               </div>
             </div>
 
             <div className="col">
               <div className="card card-proyecto">
-                <Image src="./img proyects/estudio.png" className="card-img-top" alt="Busca a tu Profe" />
+                <Image src="./img proyects/images.png" className="card-img-top" alt="Ecommerce" />
                 <div className="card-body">
-                  <h5 className="card-title">Busca A Tu Profe</h5>
-                  <p className="card-text">Plataforma para encontrar profesores particulares según tus necesidades académicas.</p>
-                  <a href="https://github.com/IgnacioRojos/Tu-Profe-Particular.git" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Repositorio</a>
-                  <a href="https://ignaciorojos.github.io/Tu-Profe-Particular/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
+                  <h5 className="card-title">Ecommerce Full stack</h5>
+                  <p className="card-text">Es una página donde se pueden comprar diferentes productos, creado con el proyecto back end y con un front creado desde cero.</p>
+                  <a href="https://github.com/IgnacioRojos/ecommerce.git" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Repositorio</a>
+                  <a href="https://eccomercefullstack.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
                 </div>
               </div>
             </div>
@@ -99,6 +99,7 @@ const Proyects = () => {
                   <h5 className="card-title">Proyecto Back-End</h5>
                   <p className="card-text">Simulación de una base de datos no relacional para eCommerce usando MongoDB.</p>
                   <a href="https://github.com/IgnacioRojos/BackEnd.git" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Repositorio</a>
+                  <a href="https://backend-production-1df6.up.railway.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary boton1">Ver Página</a>
                 </div>
               </div>
             </div>
