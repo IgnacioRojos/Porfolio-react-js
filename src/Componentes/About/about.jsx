@@ -35,10 +35,10 @@ const About = () =>{
                         Me especializo en el desarrollo Front-End con tecnologías como HTML5, CSS3, JavaScript ES6+, React.js, Bootstrap, y también cuento con conocimientos de Back-End con Node.js, Express y MongoDB. Valoro el trabajo en equipo, la comunicación efectiva y el aprendizaje continuo.
                     </p>
                     <div className="d-flex flex-column flex-sm-row justify-content-center gap-3">
-                        <a download="Curriculum_Ignacio_Rojos_ES.pdf" href="/IgnacioRojos_FrontEndDeveloper_2025.pdf.pdf" className="btn btn-outline-primary">
+                        <a download="Curriculum_Ignacio_Rojos_ES.pdf" href="/IgnacioRojos_FrontEndDeveloper_2025.pdf" className="btn btn-outline-primary">
                             Descargar CV
                         </a>
-                        <a download="Curriculum_Ignacio_Rojos_EN.pdf" href="/IgnacioRojos_2025_in English.pdf.pdf" className="btn btn-outline-primary">
+                        <a download="Curriculum_Ignacio_Rojos_EN.pdf" href="/IgnacioRojos_2025_in English.pdf" className="btn btn-outline-primary">
                             Descargar CV en Inglés
                         </a>
                     </div>
