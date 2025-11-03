@@ -6,6 +6,7 @@ import Contact from "../src/Componentes/Contact/contact.jsx"
 import Proyects from "../src/Componentes/Proyects/proyects.jsx"
 import Skills from './Componentes/Skills/skills.jsx';
 import About from './Componentes/About/about.jsx';
+import "./styles/colors.css"
 
 
 function App() {

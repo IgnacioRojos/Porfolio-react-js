@@ -33,7 +33,7 @@ const Contact = () => {
                         </div>
 
                         <div className="text-center">
-                            <button type="submit" className="btn btn-primary contact-button">Enviar</button>
+                            <button type="submit" className="contact-button">Enviar</button>
                         </div>
 
                         <input type="hidden" name="_next" value="http://127.0.0.1:5500/" />

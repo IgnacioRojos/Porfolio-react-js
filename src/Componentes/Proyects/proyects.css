@@ -1,22 +1,4 @@
-/* ===== Variables y configuración general ===== */
-:root {
-  --bg-color: #fff;
-  --text-color: #333;
-  --card-bg: #f9f9f9;
-  --card-text: #555;
-  --btn-bg: #007bff;
-  --btn-text: #fff;
-}
-
-.dark-mode {
-  --bg-color: #121212;
-  --text-color: #ffffff;
-  --card-bg: #1e1e1e;
-  --card-text: #cccccc;
-  --btn-bg: #0d6efd;
-}
-
-/* Aplica colores y fuente global */
+/* ===== Aplica colores y fuente global ===== */
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--bg-color);
@@ -32,30 +14,39 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: var(--text-color);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 
 /* ===== Contenedor de cards ===== */
 .habilidades {
   padding: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.proyectdestac {
+  padding-bottom: 70px;
 }
 
 /* ===== Card de proyecto ===== */
 .card-proyecto {
-  background-color: var(--card-bg);
-  color: var(--card-text);
+  background-color: var(--bg-secondary);
+  color: var(--text-color);
   width: 100%;
   max-width: 320px;
   margin: auto;
   border-radius: 15px;
   overflow: hidden;
-  border: none;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #30363D;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 .card-proyecto:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 25px rgba(154, 205, 50, 0.25); /* sombra verde acento */
 }
 
 /* ===== Imagen de la card ===== */
@@ -74,33 +65,75 @@ body {
 
 /* ===== Título y texto ===== */
 .card-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: var(--text-color);
+  font-size: 1.4rem;             /* más grande para resaltar */
+  font-weight: 700;
+  color: #9ACD32;                /* acento verde */
+  margin-bottom: 0.5rem;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.card-text2{
+  font-size: 1.05rem;
+  color: #555555;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  color: black;                /* acento verde */
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 
 .card-text {
-  font-size: 1rem;
-  color: var(--card-text);
+  font-size: 1.05rem;
+  color: #F5F5F5; /* más cercano a blanco, legible sobre fondo oscuro */
+  line-height: 1.7;
   margin-bottom: 1rem;
 }
-
 /* ===== Botones ===== */
-.boton1 {
+.boton1,
+.btn-primary,
+.btn-outline-primary {
   display: inline-block;
   margin: 0.25rem;
   padding: 0.5rem 1rem;
   font-size: 0.95rem;
   font-weight: 500;
-  background-color: var(--btn-bg);
-  color: var(--btn-text);
-  border: none;
   border-radius: 8px;
-  transition: background-color 0.2s ease;
+  cursor: pointer;
   text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
-.boton1:hover {
-  background-color: #0056b3;
-  color: #fff;
+/* Botón principal */
+.boton1,
+.btn-primary {
+  background-color: #9ACD32; /* acento verde */
+  color: #0D1117;             /* texto oscuro sobre verde */
+  border: none;
 }
+
+.boton1:hover,
+.btn-primary:hover {
+  background-color: #7CAF1F;  /* hover más oscuro */
+  transform: translateY(-2px);
+}
+
+/* Botón outline */
+.btn-outline-primary {
+  color: #9ACD32;
+  border: 1px solid #9ACD32;
+  background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+  background-color: #9ACD32;
+  color: #0D1117;
+}
+
+/* ===== Badges ===== */
+.badge {
+  background-color: #9ACD32 !important;
+  color: #0D1117 !important;
+  font-weight: 600;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+}
+

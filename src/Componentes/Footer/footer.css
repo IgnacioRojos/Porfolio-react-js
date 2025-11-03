@@ -1,35 +1,46 @@
+/* === Footer general === */
 .footer {
-    background-color: #f8f9fa;
-    color: #333;
-    font-size: 0.95rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-color);
+  font-size: 0.95rem;
+  padding: 1rem 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center;
 }
 
+/* === Texto de copyright === */
 .footer-copy {
-    margin: 0;
-    font-weight: 500;
+  margin: 0;
+  font-weight: 500;
+  color: var(--text-muted);
 }
 
+/* === Links del footer === */
 .footer-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0.5rem 0;
 }
 
 .footer-links a {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    font-weight: 500;
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 500;
 }
 
 .footer-links a:hover {
-    color: #0056b3;
-    text-decoration: underline;
+  color: var(--accent-hover);
+  text-decoration: underline;
 }
 
+/* === Separadores / símbolos === */
 .footer-separator {
-    color: #6c757d;
-    font-weight: 400;
+  color: var(--text-muted);
+  font-weight: 400;
+  margin: 0 5px;
 }
+

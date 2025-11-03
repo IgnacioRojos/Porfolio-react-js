@@ -1,3 +1,4 @@
+/* Contenedor general de grid */
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
@@ -6,19 +7,21 @@
   padding: 2rem;
 }
 
+/* Imagen de skill */
 .skills-img {
   width: 100px;
   height: auto;
   object-fit: contain;
   margin: 0 auto;
   border-radius: 12px;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease;
 }
 
 .skills-img:hover {
   transform: scale(1.05);
 }
 
+/* Header de skills */
 .skills-header {
   text-align: center;
   margin: 40px 0 20px 0;
@@ -27,33 +30,26 @@
 .skills-title {
   font-size: 2rem;
   font-weight: bold;
-  color: #333;
-  border-bottom: 2px solid #007bff;
+  color: var(--text-color);           /* texto principal */
+  border-bottom: 2px solid var(--accent-color); /* color de acento */
   display: inline-block;
   padding-bottom: 8px;
 }
 
+/* Texto descriptivo */
 .skills-text {
   max-width: 800px;
   margin: 30px auto;
   text-align: center;
   font-size: 1rem;
-  color: #555;
+  color: var(--text-muted);           /* texto secundario consistente */
   line-height: 1.6;
   padding: 0 20px;
 }
 
+/* Carousel container */
 .skills-carousel-container {
   max-width: 100%;
   overflow: hidden;
   padding: 0 0.5rem;
-}
-
-
-.dark-mode .skills-title{
-  color: white;
-}
-
-.dark-mode .skills-text{
-  color: white;
 }

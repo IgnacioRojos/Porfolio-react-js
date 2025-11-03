@@ -1,42 +1,65 @@
+/* === Contact Section === */
 .contact-section {
-    max-width: 900px;
-    margin: auto;
+  max-width: 900px;
+  margin: auto;
+  color: var(--text-color);
+  padding: 2rem 1rem;
 }
 
-
-
+/* === Título === */
 .contact-title {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #007bff;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-bottom: 1.5rem;
 }
 
+/* === Formulario === */
 .contact-form {
-    background-color: #ffffff;
+  background-color: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(88, 166, 255, 0.15);
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-form .form-label {
-    font-weight: 500;
-    color: #333;
+  background-color: transparent !important;
+  color: var(--text-color);
+  padding: 0;
+  margin: 0 0 5px 0;
+  font-weight: 500;
 }
 
 .contact-form .form-control {
-    border-radius: 8px;
-    border: 1px solid #ced4da;
+  border-radius: 8px;
+  border: 1px solid #30363D;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-form .form-control:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  border-color: var(--accent-color);
+  box-shadow: 0 0 8px rgba(88, 166, 255, 0.3);
+  outline: none;
 }
 
+/* === Botón de envío === */
 .contact-button {
-    padding: 10px 30px;
-    font-weight: 600;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+  padding: 10px 30px;
+  font-weight: 500;
+  background-color: var(--accent-color);
+  color: var(--btn-text);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .contact-button:hover {
-    background-color: #0056b3;
-    transform: translateY(-2px);
+  background-color: var(--accent-hover);
+  transform: translateY(-2px);
 }
+
+
