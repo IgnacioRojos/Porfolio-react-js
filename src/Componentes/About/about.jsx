@@ -37,8 +37,9 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          Creo aplicaciones web modernas, rápidas y escalables.  
-          Mi enfoque: transformar ideas en productos digitales que generan impacto real.
+          Desarrollo interfaces modernas con <strong>React</strong> y <strong>Node.js</strong>,
+          combinando diseño y rendimiento para crear experiencias digitales funcionales y atractivas.  
+          Me motiva transformar ideas en productos que resuelven problemas reales y generan valor.
         </motion.p>
 
         <motion.div
@@ -49,6 +50,7 @@ const About = () => {
         >
           <motion.a
             href="#proyectos"
+            aria-label = "Ver proyectos de Ignacio Rojos"
             className="boton1 btn-lg"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
@@ -57,6 +59,7 @@ const About = () => {
           </motion.a>
           <motion.a
             href="/IgnacioRojos_FrontEndDeveloper_2025.pdf"
+            aria-label = "Descargar currículum de Ignacio Rojos en PDF"
             download="Curriculum_Ignacio_Rojos_ES.pdf"
             className="boton1 btn-lg"
             whileHover={{ scale: 1.1 }}
@@ -84,7 +87,15 @@ const About = () => {
           <h1 className="about-name">Sobre mí</h1>
           <h2 className="about-profession">Desarrollador Front-End</h2>
           <p className="about-description mt-3">
-            Soy estudiante de Ingeniería en Sistemas con experiencia en desarrollo web, especializado en HTML, CSS, JavaScript, React y con nociones de Back-End. Apasionado por crear interfaces intuitivas y soluciones eficientes.
+            Soy <strong>Ignacio Rojos</strong>, estudiante de Ingeniería en Sistemas y desarrollador 
+            enfocado en <strong>Front-End con React</strong>, con bases sólidas en <strong>JavaScript</strong> 
+            y conocimientos de <strong>Back-End</strong> con Node.js y MongoDB.  
+            Disfruto convertir conceptos en productos digitales que combinan <strong>usabilidad, rendimiento y estética</strong>.
+            <br /><br />
+            Me caracterizo por mi curiosidad constante, mi enfoque en los detalles y mi búsqueda por aprender 
+            nuevas tecnologías que mejoren la experiencia del usuario.  
+            He desarrollado <strong>landing pages, aplicaciones web dinámicas y proyectos fullstack</strong> 
+            donde priorizo código limpio, escalabilidad y trabajo colaborativo.
           </p>
           <div className="about-buttons mt-4 d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-2">
             <motion.a
@@ -104,6 +115,7 @@ const About = () => {
           className="about-image mt-4 mt-lg-0"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
+          whileHover={{ scale: 1.03 }}
           transition={{ duration: 0.7, delay: 0.3 }}
           viewport={{ once: true }}
         >

@@ -1,20 +1,27 @@
 import Image from 'react-bootstrap/Image';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import './proyects.css';
 
 const Proyects = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true, easing: "ease-out" });
+  }, []);
+
   return (
     <div className="row row4">
       <div className="col-lg-12 col-12" id="proyectos">
-        <h2 className="tituloProyecto">Mis Proyectos</h2>
+        <h2 className="tituloProyecto" data-aos="fade-down">Mis Proyectos</h2>
 
         {/* PROYECTOS DESTACADOS */}
         <section className="container my-5">
-          <h2 className="text-center mb-5 fw-bold fs-2">🚀 Proyectos Destacados</h2>
+          <h2 className="text-center mb-5 fw-bold fs-2" data-aos="fade-up">🚀 Proyectos Destacados</h2>
 
           <div className="row g-4 proyectdestac">
 
             {/* PROYECTO 0 - GESTAR Sistema de Contactos */}
-            <div className="col-12">
+            <div className="col-12" data-aos="fade-right">
               <div className="card shadow-lg rounded-4 h-100">
                 <div className="card-body">
                   <h3 className="card-title fs-4 fw-semibold">📞 GDC - Sistema de Gestión de Contactos</h3>
@@ -27,6 +34,12 @@ const Proyects = () => {
                     administrar usuarios del sistema. Incluye autenticación JWT, conexión entre frontend y backend, y base de datos 
                     en MongoDB Atlas desplegada en Railway.
                   </p>
+                  <p className="card-text2 mb-3">
+                    <strong>Usuarios de prueba:</strong><br />
+                    <strong>ignacio / 123456</strong><br />
+                    <strong>martin / Ignacio1920</strong>
+                  </p>
+
 
                   <div className="mb-3">
                     <span className="badge bg-primary me-1">React</span>
@@ -53,7 +66,7 @@ const Proyects = () => {
             </div>
 
             {/* PROYECTO 1 - Ecommerce Full Stack */}
-            <div className="col-12">
+            <div className="col-12" data-aos="zoom-in">
               <div className="card shadow-lg rounded-4 h-100">
                 <div className="card-body">
                   <h3 className="card-title fs-4 fw-semibold">🛒 Ecommerce Full Stack</h3>
@@ -83,7 +96,7 @@ const Proyects = () => {
             </div>
 
             {/* PROYECTO 2 - Landing Page CoderHouse */}
-            <div className="col-12">
+            <div className="col-12" data-aos="fade-left">
               <div className="card shadow-lg rounded-4 h-100">
                 <div className="card-body">
                   <h3 className="card-title fs-4 fw-semibold">🖥️ Landing Page - CoderHouse</h3>
@@ -109,7 +122,7 @@ const Proyects = () => {
             </div>
 
             {/* PROYECTO 3 - Concesionario Sport React */}
-            <div className="col-12">
+            <div className="col-12" data-aos="fade-up">
               <div className="card shadow-lg rounded-4 h-100">
                 <div className="card-body">
                   <h3 className="card-title fs-4 fw-semibold">🚗 Concesionario Sport - React</h3>
@@ -159,7 +172,7 @@ const Proyects = () => {
                 <Image src="./img proyects/auto.jpg" className="card-img-top" alt="Simulador React JS" />
                 <div className="card-body">
                   <h5 className="card-title">Concesionario Sport simulador</h5>
-                  <p className="card-text">un simulador de compra de autos desarrollado con JavaScript puro. Este proyecto tiene como objetivo simular el proceso de selección y compra de vehículos</p>
+                  <p className="card-text">un simulador de compra de autos desarrollado con JavaScript puro. Este proyecto tiene como objetivo simular el proceso de selección y compra de vehículos. Usuario de pruebas: USUARIO: ignacio CONTRASEÑA: 1234</p>
                   <a href="https://github.com/IgnacioRojos/Concesionario-Sport-simulador-de-compra.git" target="_blank" rel="noopener noreferrer" className="boton1">Ver Repositorio</a>
                   <a href="https://simuladordecomprajavascript.netlify.app/" target="_blank" rel="noopener noreferrer" className="boton1">Ver Página</a>
                 </div>

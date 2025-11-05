@@ -38,15 +38,135 @@
   color: var(--accent-hover);
 }
 
-/* === Botón toggle de menú (hamburguesa) === */
-.botonMenu {
+/* === Botón de menú hamburguesa visible y animado === */
+/* === Botón de menú hamburguesa === */
+.navbar-toggler {
   border: none;
-  background: none;
-  cursor: pointer;
-  transition: transform 0.2s ease;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.botonMenu:hover {
-  transform: scale(1.1);
+/* === Ícono de 3 líneas personalizado === */
+.navbar-toggler-icon {
+  position: relative;
+  width: 26px;
+  height: 2.5px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  transition: all 0.3s ease;
 }
 
+/* Eliminar ícono SVG de Bootstrap */
+.navbar-light .navbar-toggler-icon,
+.navbar-dark .navbar-toggler-icon {
+  background-image: none !important;
+}
+
+/* Líneas superior e inferior */
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 2.5px;
+  background-color: var(--accent-color);
+  left: 0;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler-icon::after {
+  top: 8px;
+}
+
+/* Estado activo (menú abierto) → forma de X */
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-color: transparent;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+/* Hover visual */
+.navbar-toggler:hover .navbar-toggler-icon,
+.navbar-toggler:hover .navbar-toggler-icon::before,
+.navbar-toggler:hover .navbar-toggler-icon::after {
+  background-color: var(--accent-hover);
+}
+
+.botonMenu {
+  background: transparent !important; /* elimina el rectángulo verde */
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  padding: 0.4rem;
+}
+
+/* Evita fondo verde al tocar en móvil */
+.botonMenu:focus,
+.botonMenu:active,
+.botonMenu:focus-visible {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Personaliza las tres líneas del ícono */
+.navbar-toggler-icon {
+  background-image: none !important; /* elimina el ícono SVG de Bootstrap */
+  width: 22px;
+  height: 2px;
+  background-color: #7bc043; /* color verde */
+  display: block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 2px;
+  background-color: #7bc043;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon::before {
+  top: -7px;
+}
+
+.navbar-toggler-icon::after {
+  top: 7px;
+}
+
+/* Animación al abrir (forma de X) */
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  transform: rotate(45deg);
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
+  opacity: 0;
+}

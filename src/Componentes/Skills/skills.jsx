@@ -1,8 +1,8 @@
 import "./skills.css";
-import Image from 'react-bootstrap/Image';
-import { useEffect, useRef } from 'react';
-import { Splide, SplideSlide } from '@splidejs/react-splide';
-import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
+import Image from "react-bootstrap/Image";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
+import { Radar, RadarChart, PolarGrid, PolarAngleAxis, ResponsiveContainer } from "recharts";
 
 import logo1 from "./css.jpg";
 import logo2 from "./html.jpg";
@@ -17,32 +17,37 @@ import logo9 from "./express-js.png";
 const Skills = () => {
   const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9];
 
+  const data = [
+    { skill: "Frontend", nivel: 90 },
+    { skill: "Backend", nivel: 75 },
+    { skill: "Trabajo en equipo", nivel: 95 },
+    { skill: "Liderazgo", nivel: 85 },
+    { skill: "Comunicación", nivel: 88 },
+  ];
+
   return (
     <>
-      <div className="col-lg-12 col-12 skills-header">
-        <h2 className="skills-title">Habilidades</h2>
+      <div className="col-lg-12 col-12 skills-header text-center">
+        <h2 className="skills-title">Mis Habilidades</h2>
+        <p className="skills-subtitle">
+          Un equilibrio entre lo técnico y lo humano: código limpio, diseño funcional y trabajo en equipo.
+        </p>
       </div>
 
-      <div className="skills-carousel-container">
+      {/* Carrusel técnico */}
+      <div className="skills-carousel-container my-4">
         <Splide
           options={{
-            type: 'loop',
-            drag: 'free',
-            focus: 'center',
-            perPage: 3,
-            gap: '0.5rem',
-            autoScroll: {
-              speed: 1,
-            },
+            type: "loop",
+            drag: "free",
+            focus: "center",
+            perPage: 4,
+            gap: "1rem",
+            autoScroll: { speed: 1 },
             breakpoints: {
-              768: {
-                perPage: 2,
-                gap: '0.7rem',
-              },
-              480: {
-                perPage: 1,
-                gap: '0.5rem',
-              },
+              992: { perPage: 3 },
+              768: { perPage: 2 },
+              480: { perPage: 1 },
             },
             arrows: false,
             pagination: false,
@@ -51,24 +56,49 @@ const Skills = () => {
         >
           {logos.map((logo, index) => (
             <SplideSlide key={index}>
-              <Image src={logo} alt={`Skill ${index}`} className="skills-img" />
+              <div className="skills-logo-wrapper">
+                <Image src={logo} alt={`Skill ${index}`} className="skills-img" />
+              </div>
             </SplideSlide>
           ))}
         </Splide>
       </div>
 
+      {/* Gráfico radar */}
+      <div className="skills-chart-container">
+        <ResponsiveContainer width="100%" height={300}>
+          <RadarChart cx="50%" cy="50%" outerRadius="80%" data={data}>
+            <PolarGrid />
+            <PolarAngleAxis dataKey="skill" stroke="var(--text-color)" />
+            <Radar
+              name="Ignacio Rojos"
+              dataKey="nivel"
+              stroke="#00aaff"
+              fill="#00aaff"
+              fillOpacity={0.5}
+            />
+          </RadarChart>
+        </ResponsiveContainer>
+      </div>
+
+      {/* Soft skills cards */}
+      <div className="soft-skills">
+        <div className="soft-card">🤝 Trabajo en equipo</div>
+        <div className="soft-card">💬 Comunicación</div>
+        <div className="soft-card">⚡ Resolución de problemas</div>
+        <div className="soft-card">🎯 Liderazgo</div>
+        <div className="soft-card">🧠 Adaptabilidad</div>
+      </div>
+
+      {/* Texto con storytelling */}
       <div className="col skills-text mt-4">
-        Además de las habilidades mencionadas en el área de programación, mis superiores destacaron mi predisposición para trabajar en equipo,
-        dando mi opinión sobre decisiones o temas a mejorar en el rendimiento del grupo. Dentro de mi equipo de trabajo me felicitaron por 
-        tomar el liderazgo en momentos donde hay que tomar decisiones bajo presión y la ayuda que ofrezco a los demás miembros en situaciones
-        problemáticas que se presentan en la jornada laboral. Algo que también destaco es que en todo momento estoy dispuesto a recibir un 
-        feedback de parte de mis superiores al igual que de mis compañeros para mejorar en los aspectos que me marquen.
+        Además de mis conocimientos técnicos en desarrollo Front-End y Back-End, valoro profundamente el trabajo en equipo. 
+        Mis superiores y compañeros suelen destacar mi predisposición para colaborar, proponer mejoras y asumir el liderazgo en momentos clave. 
+        Disfruto ayudar a quienes lo necesitan y mantener un ambiente de aprendizaje continuo, donde el feedback —tanto recibido como dado— 
+        es parte del crecimiento diario.
       </div>
     </>
   );
 };
 
 export default Skills;
-
-
-

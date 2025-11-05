@@ -1,55 +1,147 @@
-/* Contenedor general de grid */
-.skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 2rem;
-}
-
-/* Imagen de skill */
-.skills-img {
-  width: 100px;
-  height: auto;
-  object-fit: contain;
-  margin: 0 auto;
-  border-radius: 12px;
-  transition: transform 0.3s ease;
-}
-
-.skills-img:hover {
-  transform: scale(1.05);
-}
-
-/* Header de skills */
+/* === ESTILOS GENERALES === */
 .skills-header {
-  text-align: center;
-  margin: 40px 0 20px 0;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .skills-title {
-  font-size: 2rem;
-  font-weight: bold;
-  color: var(--text-color);           /* texto principal */
-  border-bottom: 2px solid var(--accent-color); /* color de acento */
-  display: inline-block;
-  padding-bottom: 8px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
 }
 
-/* Texto descriptivo */
+.skills-subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* === CARRUSEL DE TECNOLOGÍAS === */
+.skills-carousel-container {
+  width: 100%;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+
+.skills-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.skills-logo-wrapper:hover {
+  transform: scale(1.08);
+  border-color: var(--accent-color);
+  box-shadow: 0 0 12px rgba(154,205,50,0.4);
+}
+
+.skills-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+/* Responsividad del carrusel */
+@media (max-width: 992px) {
+  .skills-img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .skills-carousel-container {
+    padding: 0 1rem;
+  }
+  .skills-img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* === GRÁFICO RADAR === */
+.skills-chart-container {
+  width: 100%;
+  height: 350px;
+  margin: 2rem auto;
+}
+
+.recharts-polar-grid line {
+  stroke: var(--border-color);
+}
+
+.recharts-text {
+  fill: var(--text-color) !important;
+}
+
+.recharts-polar-angle-axis text {
+  fill: var(--text-color) !important;
+  font-size: 12px;
+}
+
+/* === SOFT SKILLS === */
+.soft-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.soft-title {
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+}
+
+.soft-card {
+  background: var(--bg-secondary);
+  color: var(--text-color);
+  padding: 0.8rem 1.2rem;
+  border-radius: 1rem;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  font-weight: 500;
+  transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+}
+
+.soft-card:hover {
+  transform: translateY(-4px);
+  background: var(--accent-color);
+  color: var(--btn-text);
+  border-color: var(--accent-hover);
+}
+
+/* === TEXTO FINAL === */
 .skills-text {
   max-width: 800px;
-  margin: 30px auto;
-  text-align: center;
-  font-size: 1rem;
-  color: var(--text-muted);           /* texto secundario consistente */
+  margin: 2rem auto 4rem;
   line-height: 1.6;
-  padding: 0 20px;
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  text-align: center;
+  animation: fadeInUp 0.6s ease;
 }
 
-/* Carousel container */
-.skills-carousel-container {
-  max-width: 100%;
-  overflow: hidden;
-  padding: 0 0.5rem;
+/* === ANIMACIONES === */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
