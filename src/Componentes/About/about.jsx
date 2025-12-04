@@ -86,16 +86,13 @@ const About = () => {
         >
           <h1 className="about-name">Sobre mí</h1>
           <h2 className="about-profession">Desarrollador Front-End</h2>
-          <p className="about-description mt-3">
-            Soy <strong>Ignacio Rojos</strong>,<strong>desarrollador desarrollador Front-End</strong>, con bases sólidas en <strong>JavaScript </strong> 
-            y conocimientos de <strong>Back-End</strong> con Node.js y MongoDB.  
-            Disfruto convertir conceptos en productos digitales que combinan <strong>usabilidad, rendimiento y estética</strong>.
-            <br /><br />
-            Me caracterizo por mi curiosidad constante, mi enfoque en los detalles y mi búsqueda por aprender 
-            nuevas tecnologías que mejoren la experiencia del usuario.  
-            He desarrollado <strong>landing pages, aplicaciones web dinámicas y proyectos fullstack</strong> 
-            donde priorizo código limpio, escalabilidad y trabajo colaborativo.
-          </p>
+            <p className="about-description mt-3">
+              Soy Ignacio Rojos, Desarrollador Front-End orientado a crear experiencias digitales modernas, funcionales y de alto impacto. Trabajo con JavaScript y React, y cuento con conocimientos de Back-End utilizando Node.js y MongoDB, lo que me permite comprender y participar activamente en proyectos fullstack.
+              <br /><br />
+              Me especializo en transformar ideas en productos reales, combinando usabilidad, rendimiento y diseño cuidado. Me caracterizo por la proactividad, la atención al detalle y una mentalidad de mejora continua, siempre enfocado en aportar valor al usuario final.
+              <br /><br />
+              He desarrollado landing pages, aplicaciones web dinámicas y proyectos fullstack, aplicando buenas prácticas, código limpio, escalabilidad y trabajo colaborativo. Busco seguir creciendo profesionalmente mientras aporto soluciones eficientes y de calidad.
+            </p>
           <div className="about-buttons mt-4 d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-2">
             <motion.a
               href="https://drive.google.com/drive/folders/1OHM6-zi61zj_IVnFomlQFgjeqW49OS2j?usp=drive_link"
