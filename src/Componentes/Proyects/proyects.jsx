@@ -20,24 +20,31 @@ const Proyects = () => {
 
           <div className="row g-4 proyectdestac">
 
-            {/* PROYECTO 0 - GESTAR Sistema de Contactos */}
+            {/* PROYECTO 0 - Sistema de Contactos */}
             <div className="col-12" data-aos="fade-right">
               <div className="card shadow-lg rounded-4 h-100">
                 <div className="card-body">
                   <h3 className="card-title fs-4 fw-semibold">📞 GDC - Sistema de Gestión de Contactos</h3>
-                  <p className="card-text2">
-                    Aplicación Full Stack diseñada para optimizar la gestión de contactos en centros de atención y call centers. 
-                    Permite registrar, clasificar y derivar solicitudes, reclamos o consultas de clientes.
-                  </p>
-                  <p className="card-text2">
-                    El sistema permite buscar gestiones por número, DNI o estado; crear clientes y, si el usuario es supervisor, 
-                    administrar usuarios del sistema. Incluye autenticación JWT, conexión entre frontend y backend, y base de datos 
-                    en MongoDB Atlas desplegada en Railway.
-                  </p>
+                    <p className="card-text2">
+                      <strong>Situación:</strong> Centros de atención con alta carga operativa necesitaban una forma clara de registrar y derivar contactos de clientes.
+                    </p>
+                    <p className="card-text2">
+                      <strong>Tarea:</strong> Desarrollar una aplicación completa para gestionar usuarios, clientes y estados en tiempo real.
+                    </p>
+                    <p className="card-text2">
+                      <strong>Acción:</strong> Construí el frontend en React con Vite y Bootstrap, y el backend con Node, Express y MongoDB. Implementé autenticación JWT, buscador por DNI, estados y roles de usuario.
+                    </p>
+                    <p className="card-text2">
+                      <strong>Resultado:</strong> Sistema funcional, seguro y escalable que centraliza la gestión completa de contactos.
+                    </p>
                   <p className="card-text2 mb-3">
                     <strong>Usuarios de prueba:</strong><br />
-                    <strong>ignacio / 123456</strong><br />
-                    <strong>martin / Ignacio1920</strong>
+                    <br />
+                    <strong>Usuario demo:</strong> ignacio <br />
+                    <strong>Password:</strong> 123456 <br />
+                    <br />
+                    <strong>Usuario demo:</strong> martin <br />
+                    <strong>Password:</strong>Ignacio1920 <br />
                   </p>
 
 
@@ -70,13 +77,18 @@ const Proyects = () => {
               <div className="card shadow-lg rounded-4 h-100">
                 <div className="card-body">
                   <h3 className="card-title fs-4 fw-semibold">🛒 Ecommerce Full Stack</h3>
-                  <p className="card-text2">
-                    Simulación real de un sistema de compras online con frontend y backend conectados.
-                  </p>
-                  <p className="card-text2">
-                    Desarrollo end-to-end: backend con Node.js + Express + MongoDB, frontend en React + Vite,
-                    deployado en Railway y Netlify. Incluye autenticación, paginación y gestión de carritos.
-                  </p>
+                    <p className="card-text2">
+                      <strong>Situación:</strong> Necesidad de simular una tienda online real con usuarios, productos y carrito.
+                    </p>
+                    <p className="card-text2">
+                      <strong>Tarea:</strong> Desarrollar una aplicación full stack con frontend y backend conectados.
+                    </p>
+                    <p className="card-text2">
+                      <strong>Acción:</strong> Implementé backend con Node, Express y MongoDB, frontend con React y Vite, autenticación, paginación y gestión de carritos. Deploy en Railway y Netlify.
+                    </p>
+                    <p className="card-text2">
+                      <strong>Resultado:</strong> Plataforma completa que replica el flujo real de un ecommerce funcionando de punta a punta.
+                    </p>
 
                   <div className="mb-3">
                     <span className="badge bg-primary me-1">React</span>
@@ -101,13 +113,17 @@ const Proyects = () => {
                 <div className="card-body">
                   <h3 className="card-title fs-4 fw-semibold">🖥️ Landing Page - CoderHouse</h3>
                   <p className="card-text2">
-                    Proyecto colaborativo desarrollado durante mi cursada en CoderHouse, enfocado en UI/UX y marketing.
+                  <strong>Situación:</strong> Empresa necesitaba una landing moderna enfocada en marketing y conversión.
                   </p>
                   <p className="card-text2">
-                    Diseñé e implementé una landing page moderna para la empresa Matching, aplicando buenas prácticas de diseño,
-                    responsividad y optimización SEO. Participé en un equipo de desarrollo, aprendiendo metodologías ágiles.
+                    <strong>Tarea:</strong> Diseñar y desarrollar una landing optimizada para UX, UI y SEO.
                   </p>
-
+                  <p className="card-text2">
+                    <strong>Acción:</strong> Maqueté con HTML, CSS y JavaScript, apliqué diseño responsive, optimización visual y trabajo colaborativo con Git en equipo ágil.
+                  </p>
+                  <p className="card-text2">
+                    <strong>Resultado:</strong> Landing profesional optimizada para distintos dispositivos y enfocada en captación de clientes.
+                  </p>
                   <div className="mb-3">
                     <span className="badge bg-primary me-1">HTML</span>
                     <span className="badge bg-primary me-1">CSS</span>
@@ -127,11 +143,16 @@ const Proyects = () => {
                 <div className="card-body">
                   <h3 className="card-title fs-4 fw-semibold">🚗 Concesionario Sport - React</h3>
                   <p className="card-text2">
-                    Aplicación web para simular un concesionario de autos deportivos con catálogo dinámico y carrito.
+                    <strong>Situación:</strong> Se necesitaba simular la experiencia de un concesionario digital de autos deportivos.
                   </p>
-                  <p className="card-text2"> 
-                    Desarrollado en React, con manejo de estados, props y hooks para simular la selección y compra de vehículos.
-                    Incluye integración de componentes reutilizables y diseño responsive.
+                  <p className="card-text2">
+                    <strong>Tarea:</strong> Crear una app interactiva con catálogo dinámico y carrito.
+                  </p>
+                  <p className="card-text2">
+                    <strong>Acción:</strong> Desarrollé en React con estados, props y hooks, componentes reutilizables, carrito funcional y diseño responsive con Bootstrap.
+                  </p>
+                  <p className="card-text2">
+                    <strong>Resultado:</strong> Aplicación fluida y visual que permite simular la selección y compra de vehículos.
                   </p>
 
                   <div className="mb-3">
@@ -163,18 +184,6 @@ const Proyects = () => {
                   <p className="card-text">Página estática para un emprendedor que realiza reparaciones de PC y notebooks.</p>
                   <a href="https://github.com/IgnacioRojos/HIReparaciones-React-js.git" target="_blank" rel="noopener noreferrer" className="boton1">Ver Repositorio</a>
                   <a href="https://hireparacionesreactjs.netlify.app/" target="_blank" rel="noopener noreferrer" className="boton1"> Ver Página</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="card card-proyecto">
-                <Image src="./img proyects/auto.jpg" className="card-img-top" alt="Simulador React JS" />
-                <div className="card-body">
-                  <h5 className="card-title">Concesionario Sport simulador</h5>
-                  <p className="card-text">un simulador de compra de autos desarrollado con JavaScript puro. Este proyecto tiene como objetivo simular el proceso de selección y compra de vehículos. Usuario de pruebas: USUARIO: ignacio CONTRASEÑA: 1234</p>
-                  <a href="https://github.com/IgnacioRojos/Concesionario-Sport-simulador-de-compra.git" target="_blank" rel="noopener noreferrer" className="boton1">Ver Repositorio</a>
-                  <a href="https://simuladordecomprajavascript.netlify.app/" target="_blank" rel="noopener noreferrer" className="boton1">Ver Página</a>
                 </div>
               </div>
             </div>
