@@ -87,8 +87,7 @@ const About = () => {
           <h1 className="about-name">Sobre mí</h1>
           <h2 className="about-profession">Desarrollador Front-End</h2>
           <p className="about-description mt-3">
-            Soy <strong>Ignacio Rojos</strong>, estudiante de Ingeniería en Sistemas y desarrollador 
-            enfocado en <strong>Front-End con React</strong>, con bases sólidas en <strong>JavaScript </strong> 
+            Soy <strong>Ignacio Rojos</strong>,<strong>desarrollador desarrollador Front-End</strong>, con bases sólidas en <strong>JavaScript </strong> 
             y conocimientos de <strong>Back-End</strong> con Node.js y MongoDB.  
             Disfruto convertir conceptos en productos digitales que combinan <strong>usabilidad, rendimiento y estética</strong>.
             <br /><br />
