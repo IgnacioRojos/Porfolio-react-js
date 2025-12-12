@@ -77,18 +77,19 @@ const Proyects = () => {
               <div className="card shadow-lg rounded-4 h-100">
                 <div className="card-body">
                   <h3 className="card-title fs-4 fw-semibold">🛒 Ecommerce Full Stack</h3>
-                    <p className="card-text2">
-                      <strong>Situación:</strong> Necesidad de simular una tienda online real con usuarios, productos y carrito.
-                    </p>
-                    <p className="card-text2">
-                      <strong>Tarea:</strong> Desarrollar una aplicación full stack con frontend y backend conectados.
-                    </p>
-                    <p className="card-text2">
-                      <strong>Acción:</strong> Implementé backend con Node, Express y MongoDB, frontend con React y Vite, autenticación, paginación y gestión de carritos. Deploy en Railway y Netlify.
-                    </p>
-                    <p className="card-text2">
-                      <strong>Resultado:</strong> Plataforma completa que replica el flujo real de un ecommerce funcionando de punta a punta.
-                    </p>
+
+                  <p className="card-text2">
+                    <strong>Situación:</strong> Necesidad de simular una tienda online real con usuarios, productos y carrito.
+                  </p>
+                  <p className="card-text2">
+                    <strong>Tarea:</strong> Desarrollar una aplicación full stack con frontend y backend conectados, incluyendo un sistema de pagos realista.
+                  </p>
+                  <p className="card-text2">
+                    <strong>Acción:</strong> Implementé backend con Node, Express y MongoDB, frontend con React y Vite, gestión completa de carritos, paginación y ordenes. Añadí integración con la API de Mercado Pago (preferencias, checkout y webhook) y realicé el deploy en Railway y Netlify.
+                  </p>
+                  <p className="card-text2">
+                    <strong>Resultado:</strong> Plataforma completa que replica el flujo real de un ecommerce funcionando de punta a punta, incluyendo pagos simulados y registro de compras en base de datos.
+                  </p>
 
                   <div className="mb-3">
                     <span className="badge bg-primary me-1">React</span>
@@ -97,12 +98,27 @@ const Proyects = () => {
                     <span className="badge bg-primary me-1">Node.js</span>
                     <span className="badge bg-primary me-1">Express</span>
                     <span className="badge bg-primary me-1">MongoDB</span>
+                    <span className="badge bg-primary me-1">Mercado Pago API</span>
                     <span className="badge bg-primary me-1">Railway</span>
                     <span className="badge bg-primary">Netlify</span>
                   </div>
 
-                  <a href="https://eccomercefullstack.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary me-2">Ver Deploy</a>
-                  <a href="https://github.com/IgnacioRojos/ecommerce.git" target="_blank" rel="noopener noreferrer" className="btn btn-primary me-2">Ver Código</a>
+                  <a
+                    href="https://eccomercefullstack.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary me-2"
+                  >
+                    Ver Deploy
+                  </a>
+                  <a
+                    href="https://github.com/IgnacioRojos/ecommerce.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary me-2"
+                  >
+                    Ver Código
+                  </a>
                 </div>
               </div>
             </div>
