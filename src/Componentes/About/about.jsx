@@ -58,7 +58,7 @@ const About = () => {
             🚀 Ver Proyectos
           </motion.a>
           <motion.a
-            href="/IgnacioRojos_FrontEndDeveloper_2025.pdf"
+            href="/IgnacioRojos_FrontEndDeveloper_2026.pdf"
             aria-label = "Descargar currículum de Ignacio Rojos en PDF"
             download="Curriculum_Ignacio_Rojos_ES.pdf"
             className="boton1 btn-lg"
