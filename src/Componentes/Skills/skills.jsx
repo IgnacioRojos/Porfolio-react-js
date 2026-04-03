@@ -13,9 +13,14 @@ import logo6 from "./React.png";
 import logo7 from "./mongodb.png";
 import logo8 from "./handlebars.png";
 import logo9 from "./express-js.png";
+import logo10 from "./postman.png";
+import logo11 from "./typeScript.png";
+import logo12 from "./tailwindCSS.png";
+import logo13 from "./Figma.png";
+import logo14 from "./railway.png"
 
 const Skills = () => {
-  const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9];
+  const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10, logo11, logo12, logo13, logo14];
 
   const data = [
     { skill: "Frontend", nivel: 90 },

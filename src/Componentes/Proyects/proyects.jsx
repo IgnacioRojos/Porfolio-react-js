@@ -72,7 +72,50 @@ const Proyects = () => {
               </div>
             </div>
 
-            {/* PROYECTO 1 - Ecommerce Full Stack */}
+            {/* PROYECTO 2 - HomeBanking Adultos mayores  */}
+            <div className="col-12" data-aos="fade-right">
+              <div className="card shadow-lg rounded-4 h-100">
+                  <div className="card-body">
+                    <h3 className="card-title fs-4 fw-semibold">🏦 Homebanking para Adultos Mayores</h3>
+
+                    <p className="card-text2">
+                      <strong>Situación:</strong> Las plataformas bancarias tradicionales suelen ser complejas y poco accesibles para adultos mayores, generando confusión y errores.
+                    </p>
+
+                    <p className="card-text2">
+                      <strong>Tarea:</strong> Diseñar y desarrollar una aplicación de homebanking simple, clara y accesible que reduzca la fricción en el uso diario.
+                    </p>
+
+                    <p className="card-text2">
+                      <strong>Acción:</strong> Desarrollé una aplicación full stack con React, TypeScript, Node.js y MongoDB. Implementé una arquitectura basada en Hooks y componentes reutilizables, manejo de estado, consumo de API y una interfaz mobile-first optimizada con Tailwind CSS.
+                    </p>
+
+                    <p className="card-text2">
+                      <strong>Resultado:</strong> Plataforma funcional con dashboard, gestión de cuentas y tarjetas, navegación intuitiva y experiencia optimizada para usuarios con baja experiencia tecnológica.
+                    </p>
+
+                    <div className="mb-3">
+                      <span className="badge bg-primary me-1">React</span>
+                      <span className="badge bg-primary me-1">TypeScript</span>
+                      <span className="badge bg-primary me-1">Node.js</span>
+                      <span className="badge bg-primary me-1">Express</span>
+                      <span className="badge bg-primary me-1">MongoDB</span>
+                      <span className="badge bg-primary me-1">Tailwind</span>
+                      <span className="badge bg-primary">Railway</span>
+                    </div>
+
+                    <a href="https://homebankingadultosmayores.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary me-2">
+                      Ver Deploy
+                    </a>
+
+                    <a href="https://github.com/IgnacioRojos/Homebaking-adultos-mayores.git" target="_blank" rel="noopener noreferrer" className="btn btn-primary me-2">
+                      Ver Código
+                    </a>
+                  </div>
+                </div>
+            </div>
+
+            {/* PROYECTO 3 - Ecommerce Full Stack */}
             <div className="col-12" data-aos="zoom-in">
               <div className="card shadow-lg rounded-4 h-100">
                 <div className="card-body">
@@ -123,7 +166,8 @@ const Proyects = () => {
               </div>
             </div>
 
-            {/* PROYECTO 2 - Landing Page CoderHouse */}
+
+            {/* PROYECTO 4 - Landing Page CoderHouse */}
             <div className="col-12" data-aos="fade-left">
               <div className="card shadow-lg rounded-4 h-100">
                 <div className="card-body">
@@ -153,7 +197,7 @@ const Proyects = () => {
               </div>
             </div>
 
-            {/* PROYECTO 3 - Concesionario Sport React */}
+            {/* PROYECTO 5 - Concesionario Sport React */}
             <div className="col-12" data-aos="fade-up">
               <div className="card shadow-lg rounded-4 h-100">
                 <div className="card-body">
