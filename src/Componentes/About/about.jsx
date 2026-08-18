@@ -28,7 +28,7 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Front-End Developer | React & Node.js
+          Full Stack Developer | Foco en Front-End · React & TypeScript
         </motion.h2>
 
         <motion.p
@@ -37,8 +37,9 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          Desarrollo interfaces modernas con <strong>React</strong> y <strong>Node.js</strong>,
-          combinando diseño y rendimiento para crear experiencias digitales funcionales y atractivas.  
+          Desarrollo aplicaciones <strong>full stack</strong>: interfaces modernas con <strong>React</strong> en el frontend
+          y APIs sólidas con <strong>Node.js</strong> en el backend, combinando diseño y rendimiento para crear
+          experiencias digitales funcionales y atractivas.
           Me motiva transformar ideas en productos que resuelven problemas reales y generan valor.
         </motion.p>
 
@@ -58,9 +59,9 @@ const About = () => {
             🚀 Ver Proyectos
           </motion.a>
           <motion.a
-            href="/IgnacioRojos_FrontEndDeveloper_2026.pdf"
+            href="/CV_Ignacio_Rojos_FullStack_2026.pdf"
             aria-label = "Descargar currículum de Ignacio Rojos en PDF"
-            download="Curriculum_Ignacio_Rojos_ES.pdf"
+            download="Curriculum_Ignacio_Rojos_FullStack_2026.pdf"
             className="boton1 btn-lg"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
@@ -85,13 +86,13 @@ const About = () => {
           transition={{ duration: 0.7, delay: 0.2 }}
         >
           <h1 className="about-name">Sobre mí</h1>
-          <h2 className="about-profession">Desarrollador Front-End</h2>
+          <h2 className="about-profession">Desarrollador Full Stack</h2>
             <p className="about-description mt-3">
-              Soy Ignacio Rojos, Desarrollador Front-End orientado a crear experiencias digitales modernas, funcionales y de alto impacto. Trabajo con JavaScript y React, y cuento con conocimientos de Back-End utilizando Node.js y MongoDB, lo que me permite comprender y participar activamente en proyectos fullstack.
+              Soy Ignacio Rojos, Desarrollador Full Stack con foco en Front-End. 
+              <br/><br/>
+              Trabajo con React y TypeScript para construir interfaces modernas y de alto impacto, y con Node.js, Express y MongoDB para diseñar la lógica de negocio y las APIs del lado del servidor.
               <br /><br />
-              Me especializo en transformar ideas en productos reales, combinando usabilidad, rendimiento y diseño cuidado. Me caracterizo por la proactividad, la atención al detalle y una mentalidad de mejora continua, siempre enfocado en aportar valor al usuario final.
-              <br /><br />
-              He desarrollado landing pages, aplicaciones web dinámicas y proyectos fullstack, aplicando buenas prácticas, código limpio, escalabilidad y trabajo colaborativo. Busco seguir creciendo profesionalmente mientras aporto soluciones eficientes y de calidad.
+              Esto me permite participar activamente en todo el ciclo de un proyecto, desde el modelado de datos hasta la experiencia final del usuario.
             </p>
           <div className="about-buttons mt-4 d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-2">
             <motion.a

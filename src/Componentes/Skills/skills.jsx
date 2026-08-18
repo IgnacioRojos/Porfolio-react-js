@@ -17,14 +17,18 @@ import logo10 from "./postman.png";
 import logo11 from "./typeScript.png";
 import logo12 from "./tailwindCSS.png";
 import logo13 from "./Figma.png";
-import logo14 from "./railway.png"
+import logo14 from "./railway.png";
+import logo15 from "./docker.png";
+import logo16 from "./sql.png";
+import logo17 from "./netlify.png";
+import logo18 from "./sqlite.png";
 
 const Skills = () => {
-  const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10, logo11, logo12, logo13, logo14];
+  const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10, logo11, logo12, logo13, logo14, logo15, logo16, logo17, logo18];
 
   const data = [
     { skill: "Frontend", nivel: 90 },
-    { skill: "Backend", nivel: 75 },
+    { skill: "Backend", nivel: 85 },
     { skill: "Trabajo en equipo", nivel: 95 },
     { skill: "Liderazgo", nivel: 85 },
     { skill: "Comunicación", nivel: 88 },

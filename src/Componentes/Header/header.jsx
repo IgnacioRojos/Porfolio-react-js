@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useEffect } from "react";
 
 const Header = () => {
-  // 🌀 Efecto de scroll suave en toda la página
+  //Efecto de scroll suave en toda la página
   useEffect(() => {
     const handleSmoothScroll = (e) => {
       const target = e.target;

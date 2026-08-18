@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="footer text-center py-4">
-      <p className="footer-copy mb-3">© 2025 Ignacio Rojos — Desarrollador Front-End</p>
+      <p className="footer-copy mb-3">© 2026 Ignacio Rojos — Desarrollador Full Stack</p>
       <div className="footer-links d-flex justify-content-center align-items-center gap-3">
         <a href="https://www.linkedin.com/in/ignacio-rojos/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="footer-icon" /> LinkedIn
