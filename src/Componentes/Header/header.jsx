@@ -1,25 +1,20 @@
 import './header.css';
 import { motion } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Header = () => {
-  //Efecto de scroll suave en toda la página
-  useEffect(() => {
-    const handleSmoothScroll = (e) => {
-      const target = e.target;
-      if (target.tagName === 'A' && target.getAttribute('href')?.startsWith('#')) {
-        e.preventDefault();
-        const elementId = target.getAttribute('href').substring(1);
-        const element = document.getElementById(elementId);
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
-        }
-      }
-    };
+  const [theme, setTheme] = useState(() => {
+    const saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") return saved;
+    return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+  });
 
-    document.addEventListener('click', handleSmoothScroll);
-    return () => document.removeEventListener('click', handleSmoothScroll);
-  }, []);
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  const toggleTheme = () => setTheme((prev) => (prev === "dark" ? "light" : "dark"));
 
   return (
     <motion.header
@@ -58,7 +53,7 @@ const Header = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          <ul className="navbar-nav">
+          <ul className="navbar-nav align-items-lg-center">
             {[
               { href: "#sobreMi", text: "Sobre Mi" },
               { href: "#proyectos", text: "Proyectos" },
@@ -76,6 +71,24 @@ const Header = () => {
                 </a>
               </motion.li>
             ))}
+            <motion.li
+              className="nav-item ms-lg-2"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <button
+                type="button"
+                className="theme-toggle"
+                onClick={toggleTheme}
+                aria-label={theme === "dark" ? "Activar modo claro" : "Activar modo oscuro"}
+                title={theme === "light" ? "Modo claro" : "Modo oscuro"}
+              >
+                <span aria-hidden="true" className="theme-toggle-icon">
+                  {theme === "light" ? "☀️" : "🌙"}
+                </span>
+              </button>
+            </motion.li>
           </ul>
         </motion.div>
       </nav>

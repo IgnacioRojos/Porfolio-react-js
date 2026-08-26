@@ -24,15 +24,6 @@ body {
   background: linear-gradient(180deg, var(--bg-color), var(--bg-secondary));
 }
 
-/* ===== Contenedor de cards ===== */
-.habilidades {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
-  padding: 2rem 1rem;
-}
-
 /* ===== Card de proyecto ===== */
 .card-proyecto {
   background-color: var(--bg-secondary);
@@ -63,13 +54,6 @@ body {
 
 .card-proyecto:hover .card-img-top {
   transform: scale(1.03);
-}
-
-/* Imagen especial para Matching */
-.imgMatching {
-  object-fit: contain;
-  height: 180px;
-  background-color: #fff;
 }
 
 /* ===== Contenido textual ===== */
@@ -157,9 +141,6 @@ body {
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
-  .habilidades {
-    gap: 1rem;
-  }
   .tituloProyecto {
     font-size: 2rem;
   }

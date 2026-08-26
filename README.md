@@ -10,9 +10,15 @@ Este proyecto es mi carta de presentación como developer, donde muestro quién 
 ## 🛠️ Tecnologías utilizadas
 React JS para estructura de componentes reutilizables.
 
-HTML5 y CSS3 para estructura y estilos.
+Bootstrap y React-Bootstrap para maquetado y componentes UI.
 
-JavaScript (ES6+) para interactividad.
+Framer Motion para animaciones de entrada e interacción.
+
+AOS (Animate On Scroll) para animaciones al hacer scroll.
+
+Splide para el carrusel de tecnologías.
+
+Recharts para el gráfico radar de habilidades.
 
 Responsive Design para todos los dispositivos.
 
@@ -30,10 +36,13 @@ Git & GitHub para control de versiones.
 ## ✨ Funcionalidades principales
 ✅ Sección Hero con presentación e imagen de marca personal.
 ✅ Sección Sobre mí, destacando experiencia y habilidades.
+✅ Carrusel de tecnologías y gráfico radar de habilidades.
 ✅ Proyectos realizados, con links para verlos en vivo o en GitHub.
-✅ Formulario de contacto funcional para recibir consultas.
+✅ Formulario de contacto funcional (integrado con FormSubmit), sin necesidad de backend propio.
 ✅ Diseño adaptable para celulares, tablets y escritorio.
+✅ Animaciones de entrada y al hacer scroll (Framer Motion + AOS).
 ✅ Navegación fluida y transiciones suaves entre secciones.
+✅ SEO on-page: metadatos Open Graph, Twitter Cards y datos estructurados (JSON-LD).
 
 ## 📬 Contacto
 Si te interesa que forme parte de tu equipo o realizar un proyecto juntos, puedes contactarme por:
@@ -49,10 +58,10 @@ Si te interesa que forme parte de tu equipo o realizar un proyecto juntos, puede
 
 
 ## 🔮 Mejoras futuras
-✨ Incorporar animaciones con Framer Motion para transiciones suaves.
-✨ Mejorar el SEO para posicionamiento en buscadores.
-✨ Conectar el formulario de contacto con un backend (Firebase o Node.js) para recibir mensajes directamente.
-✨ Agregar modo oscuro para mayor personalización.
+✨ Agregar toggle de tema claro/oscuro (actualmente el diseño es dark-only).
+✨ Sumar tests automatizados a los componentes principales.
+✨ Mejorar accesibilidad (alt text descriptivo en todas las imágenes).
+✨ Optimizar imágenes para mejorar performance en Lighthouse.
 
 ## ⭐ Contribuciones y soporte
 Si este proyecto te resultó útil o inspirador, puedes darle una ⭐ en GitHub y seguirme para ver mis próximos proyectos.

@@ -55,7 +55,7 @@ const Proyects = () => {
                     <span className="badge bg-primary me-1">Node.js</span>
                     <span className="badge bg-primary me-1">Express</span>
                     <span className="badge bg-primary me-1">MongoDB</span>
-                    <span className="badge bg-primary me-1">Railway</span>
+                    <span className="badge bg-primary me-1">Render</span>
                     <span className="badge bg-primary">Netlify</span>
                   </div>
 
@@ -101,7 +101,7 @@ const Proyects = () => {
                       <span className="badge bg-primary me-1">Express</span>
                       <span className="badge bg-primary me-1">MongoDB</span>
                       <span className="badge bg-primary me-1">Tailwind</span>
-                      <span className="badge bg-primary">Railway</span>
+                      <span className="badge bg-primary">Render</span>
                     </div>
 
                     <a href="https://homebankingadultosmayores.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-primary me-2">
@@ -128,7 +128,7 @@ const Proyects = () => {
                     <strong>Tarea:</strong> Desarrollar una aplicación full stack con frontend y backend conectados, incluyendo un sistema de pagos realista.
                   </p>
                   <p className="card-text2">
-                    <strong>Acción:</strong> Implementé backend con Node, Express y MongoDB, frontend con React y Vite, gestión completa de carritos, paginación y ordenes. Añadí integración con la API de Mercado Pago (preferencias, checkout y webhook) y realicé el deploy en Railway y Netlify.
+                    <strong>Acción:</strong> Implementé backend con Node, Express y MongoDB, frontend con React y Vite, gestión completa de carritos, paginación y ordenes. Añadí integración con la API de Mercado Pago (preferencias, checkout y webhook) y realicé el deploy en Render y Netlify.
                   </p>
                   <p className="card-text2">
                     <strong>Resultado:</strong> Plataforma completa que replica el flujo real de un ecommerce funcionando de punta a punta, incluyendo pagos simulados y registro de compras en base de datos.
@@ -142,7 +142,7 @@ const Proyects = () => {
                     <span className="badge bg-primary me-1">Express</span>
                     <span className="badge bg-primary me-1">MongoDB</span>
                     <span className="badge bg-primary me-1">Mercado Pago API</span>
-                    <span className="badge bg-primary me-1">Railway</span>
+                    <span className="badge bg-primary me-1">Render</span>
                     <span className="badge bg-primary">Netlify</span>
                   </div>
 
@@ -236,7 +236,7 @@ const Proyects = () => {
           <h3 className="text-center mb-4 fw-bold fs-4">📂 Otros Proyectos</h3>
 
           <div className="row g-4">
-            <div className="col-md-4 col-sm-6">
+            <div className="col-md-4 col-sm-6" data-aos="fade-up">
               <div className="card card-proyecto h-100">
                 <Image src="./img proyects/logoPagina.jpg" className="card-img-top" alt="HIR Reparaciones" />
                 <div className="card-body">
@@ -248,8 +248,8 @@ const Proyects = () => {
               </div>
             </div>
 
-            <div className="col">
-              <div className="card card-proyecto">
+            <div className="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+              <div className="card card-proyecto h-100">
                 <Image src="./img proyects/estudio.png" className="card-img-top" alt="Tu Profe Particular React JS" />
                 <div className="card-body">
                   <h5 className="card-title">Tu Profe Particular React Js</h5>
@@ -260,36 +260,32 @@ const Proyects = () => {
               </div>
             </div>
 
-            <div className="col">
-              <div className="card card-proyecto">
+            <div className="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+              <div className="card card-proyecto h-100">
                 <Image src="./img proyects/BackEnd.jpg" className="card-img-top" alt="Back-End" />
                 <div className="card-body">
                   <h5 className="card-title">Proyecto Back-End</h5>
-                  <p className="card-text">Simulación de una base de datos no relacional para eCommerce usando MongoDB.</p>
+                  <p className="card-text">API REST en producción para el ecommerce: Node.js, Express y MongoDB, con integración real de pagos vía Mercado Pago.</p>
                   <a href="https://github.com/IgnacioRojos/BackEnd.git" target="_blank" rel="noopener noreferrer" className="boton1">Ver Repositorio</a>
-                  <a href="https://backend-production-1df6.up.railway.app/" target="_blank" rel="noopener noreferrer" className=" boton1">Ver API</a>
+                  <a href="https://backend-pt73.onrender.com" target="_blank" rel="noopener noreferrer" className="boton1">Ver API</a>
                 </div>
               </div>
             </div>
 
-            <div className="col">
-              <div className="card card-proyecto">
+            <div className="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+              <div className="card card-proyecto h-100">
                 <Image src="./img proyects/call.png" className="card-img-top" alt="Gestar Backend" />
                 <div className="card-body">
                   <h5 className="card-title">GDC BackEnd</h5>
                   <p className="card-text">
-                    API REST desarrollada en Node.js y Express, encargada de manejar usuarios, tipificaciones y consultas. 
-                    Conectada a MongoDB Atlas y desplegada en Railway, con endpoints protegidos y autenticación JWT.
+                    API REST desarrollada en Node.js y Express, encargada de manejar usuarios, tipificaciones y consultas.
+                    Conectada a MongoDB Atlas y desplegada en Render, con endpoints protegidos y autenticación JWT.
                   </p>
-                  <a href="https://github.com/IgnacioRojos/GDCBackEnd.git" target="_blank" rel="noopener noreferrer" className=" boton1">Ver Repositorio</a>
-                  <a href="https://gestarbackend-production.up.railway.app/" target="_blank" rel="noopener noreferrer" className=" boton1">Ver API</a>
+                  <a href="https://github.com/IgnacioRojos/GDCBackEnd.git" target="_blank" rel="noopener noreferrer" className="boton1">Ver Repositorio</a>
+                  <a href="https://gdcbackend.onrender.com" target="_blank" rel="noopener noreferrer" className="boton1">Ver API</a>
                 </div>
               </div>
             </div>
-
-
-
-            
           </div>
         </section>
       </div>

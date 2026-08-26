@@ -2,6 +2,28 @@ import "./about.css"
 import Image from 'react-bootstrap/Image';
 import logo from "./desarrollador-750x350.jpg"
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
+
+const TypingName = ({ text = "Ignacio Rojos", speed = 120 }) => {
+  const [displayed, setDisplayed] = useState("");
+
+  useEffect(() => {
+    setDisplayed("");
+    let i = 0;
+    const interval = setInterval(() => {
+      i++;
+      setDisplayed(text.slice(0, i));
+      if (i >= text.length) clearInterval(interval);
+    }, speed);
+    return () => clearInterval(interval);
+  }, [text, speed]);
+
+  return (
+    <span className="titulo typing-cursor">
+      {displayed}
+    </span>
+  );
+};
 
 const About = () => {
   return (
@@ -19,7 +41,7 @@ const About = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Hola, soy <span className="titulo">Ignacio Rojos</span>
+          Hola, soy <TypingName />
         </motion.h1>
 
         <motion.h2

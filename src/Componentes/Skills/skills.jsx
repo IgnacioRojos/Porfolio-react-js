@@ -23,6 +23,12 @@ import logo16 from "./sql.png";
 import logo17 from "./netlify.png";
 import logo18 from "./sqlite.png";
 
+const skillNames = [
+  "CSS", "HTML", "GitHub", "JavaScript", "Node.js", "React", "MongoDB",
+  "Handlebars", "Express.js", "Postman", "TypeScript", "Tailwind CSS",
+  "Figma", "Railway", "Docker", "SQL", "Netlify", "SQLite",
+];
+
 const Skills = () => {
   const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10, logo11, logo12, logo13, logo14, logo15, logo16, logo17, logo18];
 
@@ -66,7 +72,7 @@ const Skills = () => {
           {logos.map((logo, index) => (
             <SplideSlide key={index}>
               <div className="skills-logo-wrapper">
-                <Image src={logo} alt={`Skill ${index}`} className="skills-img" />
+                <Image src={logo} alt={skillNames[index]} className="skills-img" />
               </div>
             </SplideSlide>
           ))}
@@ -82,8 +88,8 @@ const Skills = () => {
             <Radar
               name="Ignacio Rojos"
               dataKey="nivel"
-              stroke="#00aaff"
-              fill="#00aaff"
+              stroke="var(--accent-color)"
+              fill="var(--accent-color)"
               fillOpacity={0.5}
             />
           </RadarChart>
